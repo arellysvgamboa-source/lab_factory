@@ -16,5 +16,20 @@ public abstract class Laptop {
         this.tamPantalla = tamPantalla;
     }
 
+    public String getMarcaModelo(){
+        return marcaModelo;
+    }
+
+    public int getAnioFabricacion(){
+        return fabricacion;
+    }
+
+    public String getTipoProcesador(){
+        return tipoProcesador;
+    }
+
+    public int getTamanoPantalla(){
+        return tamPantalla;
+    }
     public abstract void ejecutarPrueba();
 }
